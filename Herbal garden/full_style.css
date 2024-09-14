@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    background-image: url(2.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: left;
+}
+#header{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 50px;
+    background-color: rgb(0, 128, 0);
+    color: white;
+    padding: 10px;
+    border-bottom: 3px solid yellow;
+}
+.main{
+    width:80%;
+    height:500px;
+    background-color: rgba(0, 128, 0, 0.703);
+    border:none;
+    border-radius: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main:hover{
+    width:80%;
+    height:500px;
+    background-color: darkgreen;
+    border:none;
+    border-radius: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 1s;
+    cursor: pointer;
+}
+.text{
+    width:90%;
+    height:30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border:none;
+    border-radius: 15px;
+    position:absolute;
+    bottom: 0px;
+    padding-bottom: 35px;
+}
